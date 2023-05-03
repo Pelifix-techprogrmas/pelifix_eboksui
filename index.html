@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PBoks UI</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>PBoks</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Forside</a></li>
+				<li><a href="#">Dokumenter</a></li>
+				<li><a href="#">Betalinger</a></li>
+				<li><a href="#">Indstillinger</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Dokumenter</h2>
+			<ul>
+				<li>
+					<h3>Velkomstbrev</h3>
+					<p>Her er dit velkomstbrev til PBoks.</p>
+					<button>Betal nu</button>
+				</li>
+				<li>
+					<h3>Faktura fra Politi</h3>
+					<p>Du har fået en bøde for at parkere ulovligt!</p>
+					<button>Betal nu</button>
+				</li>
+				<!-- Tilføj flere dokumenter efter behov -->
+			</ul>
+		</section>
+		<section>
+			<h2>Betalinger</h2>
+			<form action="#">
+				<label for="amount">Beløb:</label>
+				<input type="number" id="amount" name="amount" min="0" required>
+				<label for="recipient">Modtager:</label>
+				<input type="text" id="recipient" name="recipient" required>
+				<label for="message">Besked:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Betal</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>© 2023 PBoks</p>
+	</footer>
+	<!-- Tilføj eventuelle scripts her -->
+</body>
+</html>
